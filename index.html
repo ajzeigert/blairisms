@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getBlairism</title>
+</head>
+<body>
+    <div id="blairismContainer">
+        <code id="ism">
+            
+        </code>
+    </div>
+    <script>
+        const blairismArray = [
+            "We got some wires crossed into the wrong sockets",
+            "I guess let's all sit around the campfire",
+            "I am about to fall off the loop here",
+            "The elephant in the closet",
+            "We're going to need to go silverback on this",
+            "We have a rock to move!",
+            "We've got to draw a date in the sand",
+            "I'm sorry I gave away your thunder",
+            "Pre-engagement",
+            "I don't want to be THAT GUY, but...",
+            "This is just my opinionated opinion, but...",
+            "We have an annual tradition on Fridays",
+            "My head is in, like, the hemisphere",
+            "I'm having word-finding problems.",
+            "Everything I say...  just flip it around.",
+            "As a dude of humanity...",
+            "Let's talk about what's going on underneath the curtains",
+            "A lot of legwork under the belt.",
+            "I'm just dumping some things off in my brain here.",
+            "The cheese has moved and there are a lot of holes in the cheese.",
+            "I'm givin' 'er all she's got...   Star Trek, by the way..."
+        ];
+        const ism = document.getElementById('ism');
+        ism.innerHTML = blairismArray[Math.floor(Math.random()*blairismArray.length)]
+    </script>
+</body>
+</html>
